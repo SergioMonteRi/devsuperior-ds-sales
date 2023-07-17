@@ -1,0 +1,19 @@
+.filter-container {
+  display: flex;
+  align-items: center;
+  height: 130px;
+  padding: 0 15px;
+}
+
+.filter-container > div {
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .filter-container {
+    padding-left: 40px;
+  }
+  .filter-container > div {
+    width: 270px;
+  }
+}
